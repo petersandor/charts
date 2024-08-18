@@ -69,7 +69,7 @@ jobs:
       - name: build catalog
         shell: bash
         if: |
-          steps.collect-changes.outputs.changesDetectedAfterTag == 'true'
+          steps.collect-changes.outputs.changesDetected == 'true'
         run: |
           CHARTS=(${{ steps.collect-changes.outputs.modifiedChartsAfterTag }})
           ./charttool deps
