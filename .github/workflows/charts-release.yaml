@@ -58,7 +58,7 @@ jobs:
       - name: Checkout Catalog
         uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
         if: |
-          steps.collect-changes.outputs.changesDetectedAfterTag == 'true'
+          steps.collect-changes.outputs.changesDetected == 'true'
         with:
           fetch-depth: 1
           repository: petersandor/scale-catalog
