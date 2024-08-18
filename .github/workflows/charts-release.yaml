@@ -63,7 +63,7 @@ jobs:
           fetch-depth: 1
           repository: petersandor/scale-catalog
           token: ${{ secrets.BOT_TOKEN }}
-          ref: staging
+          ref: ''
           path: catalog
 
       - name: build catalog
