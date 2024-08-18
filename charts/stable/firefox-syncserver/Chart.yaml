@@ -5,6 +5,7 @@ annotations:
   truecharts.org/max_helm_version: "3.15"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
+  truecharts.org/SCALE-support: "true"
 apiVersion: v2
 appVersion: 1.8.0
 dependencies:
@@ -16,7 +17,8 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: This is an all-in-one package for running a self-hosted Firefox Sync server.
+description: This is an all-in-one package for running a self-hosted Firefox Sync
+  server.
 home: https://truecharts.org/charts/stable/firefox-syncserver
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/firefox-syncserver.webp
 keywords:
@@ -24,7 +26,7 @@ keywords:
   - sync
   - syncserver
   - firefox
-kubeVersion: '>=1.24.0-0'
+kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org

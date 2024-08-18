@@ -5,6 +5,7 @@ annotations:
   truecharts.org/max_helm_version: "3.15"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
+  truecharts.org/SCALE-support: "true"
 apiVersion: v2
 appVersion: 10.6.2
 dependencies:
@@ -21,7 +22,7 @@ home: https://truecharts.org/charts/stable/airsonic
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/airsonic.webp
 keywords:
   - airsonic
-kubeVersion: '>=1.24.0-0'
+kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org

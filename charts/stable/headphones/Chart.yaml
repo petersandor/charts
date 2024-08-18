@@ -5,6 +5,7 @@ annotations:
   truecharts.org/max_helm_version: "3.15"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
+  truecharts.org/SCALE-support: "true"
 apiVersion: v2
 appVersion: a78f38c1
 dependencies:
@@ -16,14 +17,15 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: An automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent and Blackhole.
+description: An automated music downloader for NZB and Torrent, written in Python.
+  It supports SABnzbd, NZBget, Transmission, Torrent and Blackhole.
 home: https://truecharts.org/charts/stable/headphones
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/headphones.webp
 keywords:
   - headphones
   - music
   - downloader
-kubeVersion: '>=1.24.0-0'
+kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org

@@ -5,6 +5,7 @@ annotations:
   truecharts.org/max_helm_version: "3.15"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
+  truecharts.org/SCALE-support: "true"
 apiVersion: v2
 appVersion: 2.0.4
 dependencies:
@@ -16,13 +17,14 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Looks and smells like Overseerr, does the opposite. Maintenance tool for the Plex ecosystem.
+description: Looks and smells like Overseerr, does the opposite. Maintenance tool
+  for the Plex ecosystem.
 home: https://truecharts.org/charts/stable/maintainerr
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/maintainerr.webp
 keywords:
   - maintainerr
   - media
-kubeVersion: '>=1.24.0-0'
+kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org

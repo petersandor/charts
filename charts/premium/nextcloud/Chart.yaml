@@ -5,6 +5,7 @@ annotations:
   truecharts.org/max_helm_version: "3.15"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: premium
+  truecharts.org/SCALE-support: "true"
 apiVersion: v2
 appVersion: 29.0.4
 dependencies:
@@ -23,7 +24,8 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A private cloud server that puts the control and security of your own data back into your hands.
+description: A private cloud server that puts the control and security of your own
+  data back into your hands.
 home: https://truecharts.org/charts/premium/nextcloud
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.webp
 keywords:
@@ -32,7 +34,7 @@ keywords:
   - http
   - web
   - php
-kubeVersion: '>=1.24.0-0'
+kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org

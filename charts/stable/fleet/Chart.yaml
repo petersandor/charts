@@ -5,6 +5,7 @@ annotations:
   truecharts.org/max_helm_version: "3.15"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
+  truecharts.org/SCALE-support: "true"
 apiVersion: v2
 appVersion: 2.3.3
 dependencies:
@@ -23,12 +24,13 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Fleet provides an online web interface which displays a set of maintained images from one or more owned repositories.
+description: Fleet provides an online web interface which displays a set of maintained
+  images from one or more owned repositories.
 home: https://truecharts.org/charts/stable/fleet
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/fleet.webp
 keywords:
   - fleet
-kubeVersion: '>=1.24.0-0'
+kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org

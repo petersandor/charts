@@ -5,6 +5,7 @@ annotations:
   truecharts.org/max_helm_version: "3.15"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
+  truecharts.org/SCALE-support: "true"
 apiVersion: v2
 appVersion: latest
 dependencies:
@@ -16,7 +17,10 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: CadQuery is an intuitive, easy-to-use Python module for building parametric 3D CAD models. Using CadQuery, you can write short, simple scripts that produce high quality CAD models. It is easy to make many different objects using a single script that can be customized.
+description: CadQuery is an intuitive, easy-to-use Python module for building parametric
+  3D CAD models. Using CadQuery, you can write short, simple scripts that produce
+  high quality CAD models. It is easy to make many different objects using a single
+  script that can be customized.
 home: https://truecharts.org/charts/stable/cadquery-server
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/cadquery-server.webp
 keywords:
@@ -25,7 +29,7 @@ keywords:
   - Tools-Utilities
   - Other
   - Network-Other
-kubeVersion: '>=1.24.0-0'
+kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org

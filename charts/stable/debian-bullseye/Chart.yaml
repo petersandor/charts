@@ -5,6 +5,7 @@ annotations:
   truecharts.org/max_helm_version: "3.15"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
+  truecharts.org/SCALE-support: "true"
 apiVersion: v2
 appVersion: latest
 dependencies:
@@ -16,14 +17,15 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: This Chart is a full Debian Bullseye Xfce4 Desktop environment with a noVNC webGUI and all the basic tools pre-installed.
+description: This Chart is a full Debian Bullseye Xfce4 Desktop environment with a
+  noVNC webGUI and all the basic tools pre-installed.
 home: https://truecharts.org/charts/stable/debian-bullseye
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/debian-bullseye.webp
 keywords:
   - debian-bullseye
   - Productivity
   - Tools-System
-kubeVersion: '>=1.24.0-0'
+kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org

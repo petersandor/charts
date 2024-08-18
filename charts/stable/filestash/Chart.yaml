@@ -5,6 +5,7 @@ annotations:
   truecharts.org/max_helm_version: "3.15"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
+  truecharts.org/SCALE-support: "true"
 apiVersion: v2
 appVersion: latest
 dependencies:
@@ -16,7 +17,8 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A Dropbox-like file manager that let you manage your data anywhere it is located.
+description: A Dropbox-like file manager that let you manage your data anywhere it
+  is located.
 home: https://truecharts.org/charts/stable/filestash
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/filestash.webp
 keywords:
@@ -24,7 +26,7 @@ keywords:
   - Cloud
   - Productivity
   - Network-Web
-kubeVersion: '>=1.24.0-0'
+kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
