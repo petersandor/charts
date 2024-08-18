@@ -17,9 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: "Bitcoin wallet with GUI over VNC and NoVNC.&#xD;
-
-  "
+description: "Bitcoin wallet with GUI over VNC and NoVNC.&#xD;   "
 home: https://truecharts.org/charts/stable/bitcoinwalletgui
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/bitcoinwalletgui.webp
 keywords:
