@@ -11,8 +11,10 @@ on:
       - "charts/**"
 
 jobs:
-  release-helm:
+  release-scale:
     runs-on: actions-runner-large
+    outputs:
+      ref: ${{ steps.save-commit-hash.outputs.commit_hash }}
     steps:
       - name: Checkout
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
@@ -20,110 +22,67 @@ jobs:
           token: ${{ secrets.BOT_TOKEN }}
           fetch-depth: 0
 
-      - name: Get Changelog Format Version
+      - name: Prep Helm
         shell: bash
         run: |
-          ver=$(./charttool genchangelog format-version)
-          key="changelog-json-format-$ver"
-          echo "Cache Key is: $key"
-          echo "CHANGELOG_CACHE_KEY=$key" >> $GITHUB_ENV
+          ./.github/scripts/prep_helm.sh
 
-      - name: Cache Changelog
-        id: cache-changelog
-        uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4
-        with:
-          path: changelog.json.gz
-          key: ${{ env.CHANGELOG_CACHE_KEY }}
+      - name: Setting repo parent dir as safe safe.directory
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-      - name: Generate Changelog
-        shell: bash
-        run: |
-          export REPO_PATH="./"
-          export TEMPLATE_PATH="./templates/CHANGELOG.md.tmpl"
-          export OUTPUT_DIR="./changelogs"
-          export JSON_FILE="changelog.json"
+      - name: Collect changes
+        id: collect-changes
+        uses: ./.github/actions/collect-changes
 
-          ls -l
-
-          if [ -f "$JSON_FILE.gz" ]; then
-            gunzip "$JSON_FILE.gz" --force # Force overwrite if file already exists
-          fi
-
-          ./charttool genchangelog "$REPO_PATH" "$TEMPLATE_PATH" "$OUTPUT_DIR"
-          gzip "$JSON_FILE" --best
-
-      - name: Checkout Helm-Staging
-        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
-        with:
-          fetch-depth: 1
-          repository: truecharts/helm-staging
-          token: ${{ secrets.BOT_TOKEN }}
-          path: helm
+      #- name: Generate Changelog
+      #  shell: bash
+      #  if: |
+      #    steps.collect-changes.outputs.changesDetectedAfterTag == 'true'
+      #  run: |
+      #    export GOBIN=/usr/local/bin/
+      #    go install github.com/git-chglog/git-chglog/cmd/git-chglog@latest
+      #    CHARTS=(${{ steps.collect-changes.outputs.modifiedChartsAfterTag }})
+      #    parthreads=$(($(nproc) * 2))
+      #    parallel -j ${parthreads} .github/scripts/changelog.sh '2>&1' ::: ${CHARTS[@]}
 
       - name: Fix Pre-Commit issues
         shell: bash
+        if: |
+          steps.collect-changes.outputs.changesDetectedAfterTag == 'true'
         run: |
           echo "Running pre-commit test-and-cleanup..."
           pre-commit run --all ||:
           # Fix sh files to always be executable
           find . -name '*.sh' | xargs chmod +x
 
-      - name: Commit Helm Changes
-        run: |
-          rm -rf helm/charts
-          mkdir helm/charts
-          cp -rf charts helm
-          echo "Copying changelogs to helm"
-          cp -r ./changelogs/** ./helm/charts/
-
-      - name: Commit Helm Changes
-        run: |
-          cd helm
-          git config user.name "TrueCharts-Bot"
-          git config user.email "bot@truecharts.org"
-          git add --all
-          git commit -sm "Commit released Helm Charts for TrueCharts" || exit 0
-          git push
-          cd -
-
-      - name: Checkout
-        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+      - name: Checkout Catalog
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
+        if: |
+          steps.collect-changes.outputs.changesDetectedAfterTag == 'true'
         with:
           fetch-depth: 1
-          repository: truecharts/website
+          repository: petersandor/scale-catalog
           token: ${{ secrets.BOT_TOKEN }}
-          path: website
+          ref: staging
+          path: catalog
 
-      - name: Copy docs to website
+      - name: build catalog
         shell: bash
+        if: |
+          steps.collect-changes.outputs.changesDetectedAfterTag == 'true'
         run: |
-          #!/bin/bash
-          echo "Maing sure directories exist..."
-          mkdir -p website/public/img/hotlink-ok/chart-icons || echo "chart-icons path already exists, continuing..."
-          mkdir -p website/public/img/hotlink-ok/chart-icons-small || echo "chart-icons-small path already exists, continuing..."
-          mkdir -p website/src/assets || echo "assets path already exists, continuing..."
+          CHARTS=(${{ steps.collect-changes.outputs.modifiedChartsAfterTag }})
+          ./charttool deps
+          ./charttool buildSCALE
 
-          ./charttool genchartlist ./charts
-          mv charts.json website/src/assets/charts.json
-
-          echo "Copying changelogs to docs"
-          cp -r ./changelogs/** ./website/src/content/docs/charts/
-
-          export DEBUG=false
-          export STRICT=true
-          go-yq --version
-
-          for item in charts/*/*/Chart.yaml; do
-            # TODO: Move all website docs structure generation to charttool
-            IFS='/' read -r -a chart_parts <<<"$item"
-            ./.github/scripts/chart-docs.sh "${chart_parts[1]}/${chart_parts[2]}"
-          done
-
-      - name: Commit Website Changes
+      - name: Commit Catalog
+        if: |
+          steps.collect-changes.outputs.changesDetected == 'true'
         run: |
-          cd website
+          cd catalog
           git config user.name "TrueCharts-Bot"
           git config user.email "bot@truecharts.org"
           git add --all
-          git commit -sm "Commit released docs for TrueCharts" || exit 0
+          git commit -sm "Commit new Chart releases for TrueCharts" || exit 0
           git push
+          cd -
