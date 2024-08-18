@@ -12,7 +12,7 @@ on:
 
 jobs:
   release-scale:
-    runs-on: actions-runner-large
+    runs-on: ubuntu-latest
     outputs:
       ref: ${{ steps.save-commit-hash.outputs.commit_hash }}
     steps:
