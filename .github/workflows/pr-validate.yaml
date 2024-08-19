@@ -78,10 +78,10 @@ jobs:
     name: Automerge and Approve build
     runs-on: ubuntu-latest
     continue-on-error: true
+    permissions:
+      pull-requests: write
     steps:
       - uses: hmarr/auto-approve-action@v3
-        with:
-          github-token: "${{ secrets.OR_PAT }}"
       - name: automerge
         uses: pascalgn/automerge-action@d1203c0bf94a827b991e5de69d662e9163304fa0 # v0.16.3
         env:
