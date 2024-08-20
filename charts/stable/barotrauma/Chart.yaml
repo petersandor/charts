@@ -10,8 +10,8 @@ apiVersion: v2
 appVersion: barotrauma
 dependencies:
   - name: common
-    version: 24.1.5
-    repository: oci://tccr.io/truecharts
+    version: 24.1.8
+    repository: https://petersandor.github.io/truecharts-common
     condition: ""
     alias: ""
     tags: []
