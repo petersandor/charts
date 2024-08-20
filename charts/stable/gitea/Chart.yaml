@@ -18,7 +18,7 @@ dependencies:
     import-values: []
   - name: memcached
     version: 14.1.5
-    repository: oci://tccr.io/truecharts
+    repository: https://petersandor.github.io/truecharts-common
     condition: memcached.enabled
     alias: ''
     tags: []
@@ -46,4 +46,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/gitea
   - https://hub.docker.com/r/gitea/gitea
 type: application
-version: 20.3.2
+version: 20.3.3
