@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: redislabs/rejson
-  tag: latest@sha256:63f236fb36826c023fae2514b22ce3389392ad66be6f731aad6501be7a4d70ca
+  tag: latest@sha256:465de6df02d82dfc3a7cc0173f305a9acfcdfc1155e2f84234a4434112c84047
 persistence:
   data:
     enabled: true
