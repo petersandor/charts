@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.8
@@ -17,10 +17,9 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Full desktop environments in many popular flavors for Alpine, Ubuntu,
-  Arch, and Fedora accessible via RDP.
+description: Full desktop environments in many popular flavors for Alpine, Ubuntu, Arch, and Fedora accessible via RDP.
 home: https://truecharts.org/charts/stable/rdesktop
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/rdesktop.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/rdesktop.png
 keywords:
   - rdesktop
   - desktops
@@ -31,9 +30,9 @@ maintainers:
     url: https://truecharts.org
 name: rdesktop
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/rdesktop
   - https://fleet.linuxserver.io/image?name=linuxserver/rdesktop
   - https://github.com/linuxserver/docker-rdesktop#readme
   - https://github.com/orgs/linuxserver/packages/container/package/rdesktop
-  - https://github.com/truecharts/charts/tree/master/charts/stable/rdesktop
 type: application
-version: 10.1.31
+version: 10.1.32
