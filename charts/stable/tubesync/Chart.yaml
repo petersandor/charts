@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.8
@@ -17,12 +17,9 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: TubeSync is a PVR (personal video recorder) for YouTube. Or, like Sonarr
-  but for YouTube (with a built-in download client). It is designed to synchronize
-  channels and playlists from YouTube to local directories and update your media server
-  once media is downloaded.
+description: TubeSync is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.
 home: https://truecharts.org/charts/stable/tubesync
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/tubesync.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tubesync.png
 keywords:
   - tubesync
   - Downloaders
@@ -35,9 +32,9 @@ maintainers:
     url: https://truecharts.org
 name: tubesync
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tubesync
   - https://ghcr.io/meeb/tubesync
   - https://github.com/meeb/tubesync
-  - https://github.com/truecharts/charts/tree/master/charts/stable/tubesync
   - https://registry.hub.docker.com/r/ghcr.io/meeb/tubesync
 type: application
-version: 7.1.9
+version: 7.1.10
