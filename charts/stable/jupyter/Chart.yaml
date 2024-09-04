@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 2023.10.20
+appVersion: "2023-10"
 dependencies:
   - name: common
     version: 24.1.8
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Jupyter a web based IDE
 home: https://truecharts.org/charts/stable/jupyter
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/jupyter.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/jupyter.png
 keywords:
   - Jupyter
   - Notebook
@@ -31,8 +31,8 @@ maintainers:
     url: https://truecharts.org
 name: jupyter
 sources:
-  - https://github.com/jupyter/docker-stacks
   - https://github.com/truecharts/charts/tree/master/charts/stable/jupyter
+  - https://github.com/jupyter/docker-stacks
   - https://hub.docker.com/r/jupyter/all-spark-notebook
   - https://hub.docker.com/r/jupyter/base-notebook
   - https://hub.docker.com/r/jupyter/datascience-notebook
@@ -42,4 +42,4 @@ sources:
   - https://hub.docker.com/r/jupyter/scipy-notebook
   - https://hub.docker.com/r/jupyter/tensorflow-notebook
 type: application
-version: 10.1.4
+version: 10.1.5
