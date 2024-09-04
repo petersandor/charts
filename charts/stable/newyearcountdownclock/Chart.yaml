@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.8
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Self Hosted, self contained New Year Countdown clock
 home: https://truecharts.org/charts/stable/newyearcountdownclock
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/newyearcountdownclock.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/newyearcountdownclock.png
 keywords:
   - newyearcountdownclock
   - Tools-Utilities
@@ -31,8 +31,8 @@ maintainers:
     url: https://truecharts.org
 name: newyearcountdownclock
 sources:
-  - https://github.com/modem7/Docker-NewYearCountdown
   - https://github.com/truecharts/charts/tree/master/charts/stable/newyearcountdownclock
+  - https://github.com/modem7/Docker-NewYearCountdown
   - https://hub.docker.com/r/modem7/newyearcountdown
 type: application
-version: 7.1.4
+version: 7.1.5
