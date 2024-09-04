@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 2.5.0.4277
+appVersion: "2.5.2.4316"
 dependencies:
   - name: common
     version: 24.1.8
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Looks and smells like Sonarr but made for music
 home: https://truecharts.org/charts/stable/lidarr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.png
 keywords:
   - lidarr
   - torrent
@@ -31,9 +31,9 @@ maintainers:
     url: https://truecharts.org
 name: lidarr
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/lidarr
   - https://ghcr.io/onedr0p/exportarr
   - https://ghcr.io/onedr0p/lidarr-develop
   - https://github.com/Lidarr/Lidarr
-  - https://github.com/truecharts/charts/tree/master/charts/stable/lidarr
 type: application
-version: 23.2.1
+version: 23.2.2
