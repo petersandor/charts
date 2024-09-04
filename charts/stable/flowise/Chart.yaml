@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 2.0.5
+appVersion: "2.0.7"
 dependencies:
   - name: common
     version: 24.1.8
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Drag & drop UI to build your customized LLM flow.
 home: https://truecharts.org/charts/stable/flowise
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/flowise.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/flowise.png
 keywords:
   - flowise
   - ai
@@ -30,8 +30,8 @@ maintainers:
     url: https://truecharts.org
 name: flowise
 sources:
-  - https://github.com/FlowiseAI/Flowise
   - https://github.com/truecharts/charts/tree/master/charts/stable/flowise
+  - https://github.com/FlowiseAI/Flowise
   - https://hub.docker.com/r/flowiseai/flowise
 type: application
-version: 7.0.5
+version: 7.0.6
