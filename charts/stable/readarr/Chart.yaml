@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 0.3.32.2587
+appVersion: "0.3.32.258"
 dependencies:
   - name: common
     version: 24.1.8
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: A fork of Radarr to work with Books & AudioBooks
 home: https://truecharts.org/charts/stable/readarr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/readarr.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/readarr.png
 keywords:
   - readarr
   - torrent
@@ -33,10 +33,10 @@ maintainers:
     url: https://truecharts.org
 name: readarr
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/readarr
   - https://ghcr.io/onedr0p/exportarr
   - https://ghcr.io/onedr0p/readarr-develop
   - https://github.com/Readarr/Readarr
-  - https://github.com/truecharts/charts/tree/master/charts/stable/readarr
   - https://readarr.com
 type: application
-version: 23.1.5
+version: 23.1.6
