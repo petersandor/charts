@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.8
@@ -17,10 +17,9 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A Dropbox-like file manager that let you manage your data anywhere it
-  is located.
+description: A Dropbox-like file manager that let you manage your data anywhere it is located.
 home: https://truecharts.org/charts/stable/filestash
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/filestash.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/filestash.png
 keywords:
   - filestash
   - Cloud
@@ -33,9 +32,9 @@ maintainers:
     url: https://truecharts.org
 name: filestash
 sources:
-  - https://github.com/mickael-kerjean/filestash
   - https://github.com/truecharts/charts/tree/master/charts/stable/filestash
+  - https://github.com/mickael-kerjean/filestash
   - https://hub.docker.com/r/machines/filestash
   - https://www.filestash.app/
 type: application
-version: 8.1.12
+version: 8.1.13
