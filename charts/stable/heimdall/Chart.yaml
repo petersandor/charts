@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: An Application dashboard and launcher
 home: https://truecharts.org/charts/stable/heimdall
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/heimdall.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/heimdall.webp
 keywords:
   - heimdall
 kubeVersion: '>=1.24.0-0'
@@ -33,4 +33,4 @@ sources:
   - https://github.com/linuxserver/Heimdall/
   - https://hub.docker.com/r/linuxserver/heimdall
 type: application
-version: 23.0.8
+version: 23.0.9
