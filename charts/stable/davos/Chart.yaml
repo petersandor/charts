@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: An FTP automation tool that periodically scans given host locations for new files.
 home: https://truecharts.org/charts/stable/davos
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/davos.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/davos.webp
 keywords:
   - davos
   - ftp
@@ -36,4 +36,4 @@ sources:
   - https://github.com/linuxserver/davos/
   - https://github.com/linuxserver/docker-davos
 type: application
-version: 14.1.9
+version: 14.1.10
