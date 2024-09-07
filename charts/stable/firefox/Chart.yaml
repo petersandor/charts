@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.
 home: https://truecharts.org/charts/stable/firefox
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/firefox.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/firefox.webp
 keywords:
   - firefox
   - browser
@@ -34,4 +34,4 @@ sources:
   - https://ghcr.io/linuxserver/firefox
   - https://github.com/linuxserver/docker-firefox
 type: application
-version: 17.0.3
+version: 17.0.4
