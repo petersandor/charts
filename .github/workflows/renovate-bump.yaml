@@ -121,6 +121,8 @@ jobs:
               train="enterprise"
             elif test -f "./charts/operators/${chart}/Chart.yaml"; then
               train="operators"
+            elif test -f "./charts/premium/${chart}/Chart.yaml"; then
+              train="premium"
             else
               train="incubator"
             fi
