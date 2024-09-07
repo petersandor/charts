@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.8
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Autoscan replaces the default Plex and Emby behaviour for picking up
-  file changes on the file system.
+description: Autoscan replaces the default Plex and Emby behaviour for picking up file changes on the file system.
 home: https://truecharts.org/charts/stable/autoscan
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/autoscan.webp
 keywords:
@@ -31,8 +30,8 @@ maintainers:
     url: https://truecharts.org
 name: autoscan
 sources:
-  - https://ghcr.io/hotio/autoscan
   - https://github.com/truecharts/charts/tree/master/charts/stable/autoscan
+  - https://ghcr.io/hotio/autoscan
   - https://hotio.dev/containers/autoscan
 type: application
-version: 10.1.6
+version: 10.1.7
