@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 14.0.0
+appVersion: "14"
 dependencies:
   - name: common
     version: 24.1.8
@@ -31,7 +31,7 @@ maintainers:
     url: https://truecharts.org
 name: wg-easy
 sources:
-  - https://ghcr.io/wg-easy/wg-easy
   - https://github.com/truecharts/charts/tree/master/charts/stable/wg-easy
+  - https://ghcr.io/wg-easy/wg-easy
 type: application
-version: 16.0.1
+version: 16.0.2
