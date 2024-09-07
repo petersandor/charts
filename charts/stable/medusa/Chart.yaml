@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: An automatic Video Library Manager for TV Shows
 home: https://truecharts.org/charts/stable/medusa
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/medusa.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/medusa.webp
 keywords:
   - medusa
   - video
@@ -39,4 +39,4 @@ sources:
   - https://github.com/linuxserver/docker-medusa
   - https://pymedusa.com/
 type: application
-version: 12.1.9
+version: 12.1.10
