@@ -37,6 +37,7 @@ jobs:
             changed:
             - 'charts/stable/**'
             - 'charts/incubator/**'
+            - 'charts/premium/**'
             - 'charts/SCALE/**'
             - 'charts/library/**'
             - 'charts/dependency/**'
