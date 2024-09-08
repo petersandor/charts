@@ -10,14 +10,14 @@ apiVersion: v2
 appVersion: 7.55.0
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
   - name: mongodb
-    version: 14.1.7
+    version: 14.1.8
     repository: https://petersandor.github.io/truecharts-common
     condition: mongodb.enabled
     alias: ''
@@ -42,4 +42,4 @@ sources:
   - https://hub.docker.com/r/wekanteam/wekan
   - https://wekan.github.io/
 type: application
-version: 16.11.2
+version: 16.11.3

@@ -10,7 +10,7 @@ apiVersion: v2
 appVersion: 4.2.0
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -42,4 +42,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/shlink
   - https://hub.docker.com/r/shlinkio/shlink
 type: application
-version: 16.3.2
+version: 16.3.3
