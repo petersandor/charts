@@ -7,7 +7,7 @@ annotations:
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: incubator
 apiVersion: v2
-appVersion: 1.102.1
+appVersion: "1.102.1"
 dependencies:
   - name: common
     version: 24.1.10
@@ -31,8 +31,8 @@ maintainers:
     url: https://truecharts.org
 name: victoriametrics
 sources:
-  - https://github.com/VictoriaMetrics/VictoriaMetrics/tree/master
   - https://github.com/truecharts/charts/tree/master/charts/incubator/victoriametrics
+  - https://github.com/VictoriaMetrics/VictoriaMetrics/tree/master
   - https://hub.docker.com/r/victoriametrics/victoria-metrics
 type: application
 version: 2.2.3

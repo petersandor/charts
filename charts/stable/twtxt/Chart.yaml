@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 0.1.1
+appVersion: "0.1.1"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A Self-Hosted, Twitter-like Decentralised microBlogging platform. No
-  ads, no tracking, your content, your data!
+description: A Self-Hosted, Twitter-like Decentralised microBlogging platform. No ads, no tracking, your content, your data!
 home: https://truecharts.org/charts/stable/twtxt
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/twtxt.webp
 keywords:
@@ -33,9 +32,9 @@ maintainers:
     url: https://truecharts.org
 name: twtxt
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/twtxt
   - https://ghcr.io/nicholaswilde/twtxt
   - https://github.com/nicholaswilde/docker-twtxt
   - https://github.com/prologic/twtxt
-  - https://github.com/truecharts/charts/tree/master/charts/stable/twtxt
 type: application
 version: 12.1.5

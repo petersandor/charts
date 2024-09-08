@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 1.13.11
+appVersion: "1.13.11"
 dependencies:
   - name: common
     version: 24.1.10
@@ -30,8 +30,8 @@ maintainers:
     url: https://truecharts.org
 name: double-take
 sources:
-  - https://github.com/jakowenko/double-take
   - https://github.com/truecharts/charts/tree/master/charts/stable/double-take
+  - https://github.com/jakowenko/double-take
   - https://hub.docker.com/r/skrashevich/double-take
 type: application
 version: 12.1.6

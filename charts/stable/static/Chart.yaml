@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: ee8a20c
+appVersion: "ee8a20c"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A self-hosted static file serving app which does nothing more than just
-  serve up static files from a mounted volume.
+description: A self-hosted static file serving app which does nothing more than just serve up static files from a mounted volume.
 home: https://truecharts.org/charts/stable/static
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/static.webp
 keywords:
@@ -33,9 +32,9 @@ maintainers:
     url: https://truecharts.org
 name: static
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/static
   - https://ghcr.io/nicholaswilde/static
   - https://github.com/nicholaswilde/docker-static
   - https://github.com/prologic/static
-  - https://github.com/truecharts/charts/tree/master/charts/stable/static
 type: application
 version: 12.1.5

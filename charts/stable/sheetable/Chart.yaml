@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 0.8.1
+appVersion: "0.8.1"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: SheetAble is an easy to use music sheet organiser for all the music enthusiasts
-  out there.
+description: SheetAble is an easy to use music sheet organiser for all the music enthusiasts out there.
 home: https://truecharts.org/charts/stable/sheetable
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/sheetable.webp
 keywords:
@@ -30,8 +29,8 @@ maintainers:
     url: https://truecharts.org
 name: sheetable
 sources:
-  - https://github.com/SheetAble
   - https://github.com/truecharts/charts/tree/master/charts/stable/sheetable
+  - https://github.com/SheetAble
   - https://hub.docker.com/r/vallezw/sheetable
   - https://sheetable.net/docs
 type: application

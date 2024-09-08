@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: auto-yt-dl is used to automatically download new Videos of specific YouTube
-  Channels. It features a Web Gui to add and remove Channels from your watch list.
+description: auto-yt-dl is used to automatically download new Videos of specific YouTube Channels. It features a Web Gui to add and remove Channels from your watch list.
 home: https://truecharts.org/charts/stable/auto-yt-dl
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/auto-yt-dl.webp
 keywords:

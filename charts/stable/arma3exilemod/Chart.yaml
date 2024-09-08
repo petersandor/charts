@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: arma3exilemod
+appVersion: "arma3exile"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: This Chart will download and install SteamCMD. It will also install ArmA
-  III including ExileMod and run it.
+description: This Chart will download and install SteamCMD. It will also install ArmA III including ExileMod and run it.
 home: https://truecharts.org/charts/stable/arma3exilemod
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/arma3exilemod.webp
 keywords:

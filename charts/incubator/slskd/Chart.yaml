@@ -7,7 +7,7 @@ annotations:
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: incubator
 apiVersion: v2
-appVersion: 0.21.3
+appVersion: "0.21.3"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Slskd is a modern client-server application for the Soulseek file sharing
-  network.
+description: Slskd is a modern client-server application for the Soulseek file sharing network.
 home: https://truecharts.org/charts/incubator/slskd
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/slskd.webp
 keywords:
@@ -32,8 +31,8 @@ maintainers:
     url: https://truecharts.org
 name: slskd
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/incubator/slskd
   - https://ghcr.io/slskd/slskd
   - https://github.com/ansible-slskd/slskd
-  - https://github.com/truecharts/charts/tree/master/charts/incubator/slskd
 type: application
 version: 2.1.8
