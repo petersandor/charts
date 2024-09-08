@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 9.17.0
+appVersion: "9.17.0"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Full featured Z-Wave Control Panel and MQTT Gateway, using NodeJS and
-  Vue.
+description: Full featured Z-Wave Control Panel and MQTT Gateway, using NodeJS and Vue.
 home: https://truecharts.org/charts/stable/zwavejs2mqtt
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/zwavejs2mqtt.webp
 keywords:

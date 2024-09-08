@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A tool that can automatically download free seeds and delete them after
-  the free time expires.
+description: A tool that can automatically download free seeds and delete them after the free time expires.
 home: https://truecharts.org/charts/stable/pt-helper
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/pt-helper.webp
 keywords:

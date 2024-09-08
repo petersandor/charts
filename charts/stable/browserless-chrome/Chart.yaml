@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 1.61.1
+appVersion: "1.61.1-chr"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Browserless is a web-service that allows for remote clients to connect,
-  drive, and execute headless work
+description: Browserless is a web-service that allows for remote clients to connect, drive, and execute headless work
 home: https://truecharts.org/charts/stable/browserless-chrome
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/browserless-chrome.webp
 keywords:
@@ -32,8 +31,8 @@ maintainers:
     url: https://truecharts.org
 name: browserless-chrome
 sources:
-  - https://docs.browserless.io/docs/docker.html
   - https://github.com/truecharts/charts/tree/master/charts/stable/browserless-chrome
+  - https://docs.browserless.io/docs/docker.html
   - https://hub.docker.com/r/browserless/chrome
 type: application
 version: 11.1.5

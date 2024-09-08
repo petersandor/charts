@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Open source DocuSign alternative. Create, fill, and sign digital documents.
 home: https://truecharts.org/charts/incubator/docuseal
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/docuseal.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/docuseal.webp
 keywords:
   - docuseal
   - business

@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 2021.11.21
+appVersion: "2021.11.21"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Endlessh is an SSH tarpit that very slowly sends an endless, random SSH
-  banner.
+description: Endlessh is an SSH tarpit that very slowly sends an endless, random SSH banner.
 home: https://truecharts.org/charts/stable/endlessh
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/endlessh.webp
 keywords:
@@ -30,7 +29,7 @@ maintainers:
     url: https://truecharts.org
 name: endlessh
 sources:
-  - https://ghcr.io/linuxserver/endlessh
   - https://github.com/truecharts/charts/tree/master/charts/stable/endlessh
+  - https://ghcr.io/linuxserver/endlessh
 type: application
 version: 11.1.5

@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.10
@@ -32,8 +32,8 @@ maintainers:
     url: https://truecharts.org
 name: vlmcsd-kms-server
 sources:
-  - https://github.com/mikolatero/docker-vlmcsd
   - https://github.com/truecharts/charts/tree/master/charts/stable/vlmcsd-kms-server
+  - https://github.com/mikolatero/docker-vlmcsd
   - https://hub.docker.com/r/mikolatero/vlmcsd
 type: application
 version: 7.1.5

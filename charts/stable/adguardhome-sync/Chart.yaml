@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 0.6.12
+appVersion: "0.6.12"
 dependencies:
   - name: common
     version: 24.1.10
@@ -30,8 +30,8 @@ maintainers:
     url: https://truecharts.org
 name: adguardhome-sync
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/adguardhome-sync
   - https://ghcr.io/bakito/adguardhome-sync
   - https://github.com/bakito/adguardhome-sync/
-  - https://github.com/truecharts/charts/tree/master/charts/stable/adguardhome-sync
 type: application
 version: 8.1.6

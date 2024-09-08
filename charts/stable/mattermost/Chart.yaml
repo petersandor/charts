@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 9.6.0
+appVersion: "9.6"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Mattermost is an open source platform for secure collaboration across
-  the entire software development lifecycle.
+description: Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.
 home: https://truecharts.org/charts/stable/mattermost
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mattermost.webp
 keywords:
@@ -32,9 +31,9 @@ maintainers:
     url: https://truecharts.org
 name: mattermost
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/mattermost
   - https://github.com/mattermost/docker
   - https://github.com/mattermost/mattermost-server
-  - https://github.com/truecharts/charts/tree/master/charts/stable/mattermost
   - https://hub.docker.com/r/mattermost/mattermost-enterprise-edition
 type: application
 version: 14.1.5

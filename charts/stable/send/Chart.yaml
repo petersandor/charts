@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.10
@@ -24,8 +24,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A fork of Mozilla"s Firefox Send.Mozilla discontinued Send, this fork
-  is a community effort to keep the project up-to-date and alive.
+description: A fork of Mozilla"s Firefox Send.Mozilla discontinued Send, this fork is a community effort to keep the project up-to-date and alive.
 home: https://truecharts.org/charts/stable/send
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/send.webp
 keywords:
