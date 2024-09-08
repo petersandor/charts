@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: A Headless Steam chart.
 home: https://truecharts.org/charts/stable/steam-headless
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/steam-headless.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/steam-headless.webp
 keywords:
   - steam-headless
   - games
@@ -34,4 +34,4 @@ sources:
   - https://github.com/Steam-Headless/docker-steam-headless
   - https://hub.docker.com/r/josh5/steam-headless
 type: application
-version: 5.1.17
+version: 5.1.18
