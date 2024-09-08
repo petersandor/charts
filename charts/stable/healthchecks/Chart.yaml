@@ -10,7 +10,7 @@ apiVersion: v2
 appVersion: "3.4.202408"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/linuxserver/healthchecks
   - https://github.com/healthchecks/healthchecks
 type: application
-version: 16.2.9
+version: 16.2.10

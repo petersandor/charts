@@ -10,7 +10,7 @@ apiVersion: v2
 appVersion: "1.4.3"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -39,4 +39,4 @@ sources:
   - https://ghcr.io/onedr0p/exportarr
   - https://github.com/morpheus65535/bazarr
 type: application
-version: 21.1.5
+version: 21.1.6

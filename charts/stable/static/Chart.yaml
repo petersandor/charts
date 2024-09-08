@@ -10,7 +10,7 @@ apiVersion: v2
 appVersion: ee8a20c
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -38,4 +38,4 @@ sources:
   - https://github.com/prologic/static
   - https://github.com/truecharts/charts/tree/master/charts/stable/static
 type: application
-version: 12.1.4
+version: 12.1.5

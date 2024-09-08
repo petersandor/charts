@@ -10,14 +10,14 @@ apiVersion: v2
 appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
   - name: mariadb
-    version: 15.2.3
+    version: 15.2.5
     repository: https://petersandor.github.io/truecharts-common
     condition: mariadb.enabled
     alias: ''
@@ -41,4 +41,4 @@ sources:
   - https://ghcr.io/linuxserver/projectsend
   - https://github.com/projectsend/projectsend
 type: application
-version: 14.3.11
+version: 14.3.12
