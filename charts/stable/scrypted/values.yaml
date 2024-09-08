@@ -1,14 +1,14 @@
 image:
   repository: koush/scrypted
-  tag: v0.115.44-jammy-full@sha256:a7890cbdf090fc8761f9402b91027d5c66e17a2f3b3fd173c68e335d429d7560
+  tag: v0.117.3-jammy-full@sha256:152c4f963631fad9ad2f8a883ec1ebdadc990d09521ab022b3b4ae36847cae7d
   pullPolicy: Always
 liteImage:
   repository: koush/scrypted
-  tag: v0.115.44-jammy-lite@sha256:9072d828800dfff76af02d76e50dcc3b5ff0a07bfe98e40e51119fd258ebb23c
+  tag: v0.117.3-jammy-lite@sha256:a56a7df282c4f66d7e1992a05500701cfd73603abc67228882366f4895a8c90e
   pullPolicy: Always
 nvidiaImage:
   repository: koush/scrypted
-  tag: v0.115.44-jammy-nvidia@sha256:7d38d9607204ba4c1b5b88eb917a2226c82739af0fa9086c5d71015eed508b3b
+  tag: v0.117.3-jammy-nvidia@sha256:270d4422c874f8ccf63f5fadabe08c0c55c56ca13d809abefecc1fe947a80da2
   pullPolicy: Always
 
 securityContext:
