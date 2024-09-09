@@ -80,7 +80,7 @@ archOpenBoxImage:
   pullPolicy: Always
 alpineICEWMImage:
   repository: lscr.io/linuxserver/rdesktop
-  tag: alpine-icewm@sha256:5f2dccd0f2a296a10d1c0dff652297c5e3353f8df1dadd08090678e5e91fe34e
+  tag: alpine-icewm@sha256:7edbbb53f524f5ee184955f8d7c75d11e3451336911ffe4ae9d76ad5b71d84d1
   pullPolicy: Always
 ubuntuICEWMImage:
   repository: lscr.io/linuxserver/rdesktop
