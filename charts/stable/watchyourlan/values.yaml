@@ -1,6 +1,6 @@
 image:
   repository: aceberg/watchyourlan
-  tag: 1.0.6@sha256:c42ce1dcb1af6dac44d3674f24511558cf89b99982cee8843016fd8ad3935871
+  tag: 2.0.2@sha256:e6ea765e541a3c0b6f8227a3d80987d7ce59a50a96ea7fe60690a2022e8964ca
   pullPolicy: IfNotPresent
 securityContext:
   container:
