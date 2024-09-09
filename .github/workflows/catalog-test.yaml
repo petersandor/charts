@@ -84,12 +84,12 @@ jobs:
           CHANGED=$(echo '${{ steps.list-changed.outputs.CHANGED_CHARTS }}' | jq --raw-output '.[]')
           ./charttool buildSCALE ${CHANGED}
 
-      ## TODO: Only run on the existing catalog when CI or template changes are actually detected
-      # - name: Checkout
-      #   uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3
-      #   with:
-      #     repository: truecharts/catalog
-      #     path: catalog
+      # TODO: Only run on the existing catalog when CI or template changes are actually detected
+      - name: Checkout
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+        with:
+          repository: petersandor/scale-catalog
+          path: catalog
 
       - name: Test Catalog
         shell: bash
