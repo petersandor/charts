@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: registry
-  tag: 2@sha256:d8cbd10291d15e67b9897e1709fd32f50a7af2d28d8e4bed9c812f617382ee07
+  tag: 2@sha256:ac0192b549007e22998eb74e8d8488dcfe70f1489520c3b144a6047ac5efbe90
 persistence:
   datastoragepath:
     enabled: true
