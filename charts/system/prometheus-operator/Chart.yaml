@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: system
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.10
@@ -38,8 +38,7 @@ maintainers:
     url: https://truecharts.org
 name: prometheus-operator
 sources:
-  - https://github.com/prometheus-operator
   - https://github.com/truecharts/charts/tree/master/charts/system/prometheus-operator
-  - https://github.com/truecharts/containers/tree/master/apps/alpine
+  - https://github.com/prometheus-operator
 type: application
-version: 8.2.1
+version: 8.2.2

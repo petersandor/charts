@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: system
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.10
@@ -37,9 +37,8 @@ maintainers:
     url: https://truecharts.org
 name: openebs
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/system/openebs
   - https://cert-manager.io/
   - https://github.com/cert-manager
-  - https://github.com/truecharts/charts/tree/master/charts/system/openebs
-  - https://github.com/truecharts/containers/tree/master/apps/scratch
 type: application
-version: 8.0.1
+version: 8.0.2
