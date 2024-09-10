@@ -7,17 +7,17 @@ annotations:
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: system
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
   - name: csi-driver-smb
-    version: v1.14.0
+    version: v1.16.0
     repository: https://raw.githubusercontent.com/kubernetes-csi/csi-driver-smb/master/charts
     condition: ''
     alias: csi-driver-smb
@@ -37,9 +37,8 @@ maintainers:
     url: https://truecharts.org
 name: csi-driver-smb
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/system/csi-driver-smb
   - https://cert-manager.io/
   - https://github.com/cert-manager
-  - https://github.com/truecharts/charts/tree/master/charts/system/csi-driver-smb
-  - https://github.com/truecharts/containers/tree/master/apps/alpine
 type: application
-version: 5.1.3
+version: 5.1.4

@@ -45,6 +45,7 @@ jobs:
             - 'charts/enterprise/**'
             - 'charts/games/**'
             - 'charts/operators/**'
+            - 'charts/system/**'
       - name: Filter filter-output
         run: echo '${{ toJson(steps.filter.outputs) }}' > changes.json
 
@@ -123,6 +124,8 @@ jobs:
               train="operators"
             elif test -f "./charts/premium/${chart}/Chart.yaml"; then
               train="premium"
+            elif test -f "./charts/system/${chart}/Chart.yaml"; then
+              train="system"
             else
               train="incubator"
             fi

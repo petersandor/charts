@@ -40,7 +40,7 @@ function incr_semver() {
 
 BUMPTYPE=${1}
 if [ -z ${2+x} ]; then
-for train in incubator stable premium; do
+for train in incubator stable premium system; do
   for chart in charts/${train}/*; do
     if [ -d "${chart}" ]; then
         if [ -f "${chart}/Chart.yaml" ]; then
