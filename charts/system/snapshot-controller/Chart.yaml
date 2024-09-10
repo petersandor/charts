@@ -17,15 +17,11 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: 'Deploys a Snapshot Controller in a cluster. Snapshot Controllers are often bundled with the Kubernetes distribution,
-
+description: |
+  Deploys a Snapshot Controller in a cluster. Snapshot Controllers are often bundled with the Kubernetes distribution,
   this chart is meant for cases where it is not.
-
   Also deploys the Snapshot Validation Webhook and configures your cluster to validate every `VolumeSnapshot` and
-
   `VolumeSnapshotContent` resource by sending it to the webhook.
-
-'
 home: https://truecharts.org/charts/system/snapshot-controller
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/snapshot-controller.webp
 keywords:
