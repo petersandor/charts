@@ -28,7 +28,7 @@ fedoraKDEImage:
   pullPolicy: Always
 archKDEImage:
   repository: lscr.io/linuxserver/webtop
-  tag: arch-kde@sha256:524ea6bfafde54e9b1434da9e5c1d1ce9a2b6dbc980de059fe70ef89b855a327
+  tag: arch-kde@sha256:57df6ae5a5fcf36d121c0bbfab54613fc7cc574b6300f652bbb7171c531b764d
   pullPolicy: Always
 alpineMATEImage:
   repository: lscr.io/linuxserver/webtop
