@@ -4,7 +4,7 @@ image:
   pullPolicy: Always
 liteImage:
   repository: koush/scrypted
-  tag: v0.119.1-jammy-lite@sha256:4a92422820d0dfa7e822818dd168d51e418de7198e3a47db5b99029a9b3a778d
+  tag: v0.119.1-jammy-lite@sha256:401938c5c14a269be1dd8968fd12f00b96cd6856b77b70250fbc39b4f3f5fce4
   pullPolicy: Always
 nvidiaImage:
   repository: koush/scrypted
