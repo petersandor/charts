@@ -1,4 +1,4 @@
 image:
   repository: aeonlucid/impostor
-  tag: nightly@sha256:7eb1db08691d0385bf41a376b9ee62f04cbef599bf5719c474866cb4a58eea10
+  tag: nightly@sha256:ad846641b3f78c8ac9fddaae5a5bc08b9a776cbdd19e750ff90f1bbef5567dde
   pullPolicy: IfNotPresent
