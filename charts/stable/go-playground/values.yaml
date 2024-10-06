@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: x1unix/go-playground
-  tag: latest@sha256:9d4008423ed5c69494cec4eb4896fd0c6c89cd970dbf2e6003e0f6bfcc5fea60
+  tag: latest@sha256:57f7528deee92e2654ce12c0562285c25f2bfce06f8c449b993709dcc2f77ee1
 persistence: {}
 portal:
   open:
