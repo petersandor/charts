@@ -30,6 +30,7 @@ jobs:
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
         name: Checkout-validate
         with:
+          token: ${{ secrets.BOT_TOKEN }}
           fetch-depth: 1
           repository: petersandor/tc-archive
           path: .catalog_validation
