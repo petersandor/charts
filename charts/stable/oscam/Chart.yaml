@@ -33,4 +33,4 @@ sources:
   - https://ghcr.io/linuxserver/oscam
   - https://trac.streamboard.tv/oscam/browser/trunk
 type: application
-version: 15.1.5
+version: 15.1.6

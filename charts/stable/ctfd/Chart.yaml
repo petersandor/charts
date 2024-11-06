@@ -48,4 +48,4 @@ sources:
   - https://ghcr.io/ctfd/ctfd
   - https://github.com/CTFd/CTFd
 type: application
-version: 6.3.8
+version: 6.3.9

@@ -33,4 +33,4 @@ sources:
   - https://github.com/ankicommunity/anki-devops-services
   - https://hub.docker.com/r/ankicommunity/anki-sync-server-rs
 type: application
-version: 8.1.5
+version: 8.1.6

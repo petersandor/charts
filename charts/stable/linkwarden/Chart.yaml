@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/linkwarden/linkwarden
   - https://github.com/linkwarden/linkwarden
 type: application
-version: 6.3.2
+version: 6.3.3

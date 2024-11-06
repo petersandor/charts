@@ -35,4 +35,4 @@ sources:
   - https://github.com/Sanster/lama-cleaner
   - https://hub.docker.com/r/cwq1913/lama-cleaner
 type: application
-version: 8.1.5
+version: 8.1.6

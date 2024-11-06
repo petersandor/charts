@@ -34,4 +34,4 @@ sources:
   - https://ghcr.io/hotio/qflood
   - https://hotio.dev/containers/qflood
 type: application
-version: 7.1.5
+version: 7.1.6

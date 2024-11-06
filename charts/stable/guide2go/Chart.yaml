@@ -34,4 +34,4 @@ sources:
   - https://github.com/alturismo/guide2go
   - https://hub.docker.com/r/alturismo/guide2go
 type: application
-version: 7.1.5
+version: 7.1.6

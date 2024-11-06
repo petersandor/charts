@@ -35,4 +35,4 @@ sources:
   - https://docs.browserless.io/docs/docker.html
   - https://hub.docker.com/r/browserless/chrome
 type: application
-version: 11.1.5
+version: 11.1.6

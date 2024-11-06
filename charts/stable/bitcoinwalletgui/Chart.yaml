@@ -33,4 +33,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/bitcoinwalletgui
   - https://hub.docker.com/r/ulisses1478/bitcoinwallet-gui
 type: application
-version: 7.1.5
+version: 7.1.6

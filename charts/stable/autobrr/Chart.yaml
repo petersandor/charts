@@ -34,4 +34,4 @@ sources:
   - https://ghcr.io/autobrr/autobrr
   - https://github.com/autobrr/autobrr
 type: application
-version: 10.3.5
+version: 10.3.6

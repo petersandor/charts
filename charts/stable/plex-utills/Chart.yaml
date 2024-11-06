@@ -35,4 +35,4 @@ sources:
   - https://github.com/jkirkcaldy/plex-utills
   - https://hub.docker.com/r/jkirkcaldy/plex-utills
 type: application
-version: 10.1.5
+version: 10.1.6

@@ -34,4 +34,4 @@ sources:
   - https://convos.chat/
   - https://hub.docker.com/r/convos/convos
 type: application
-version: 7.1.5
+version: 7.1.6

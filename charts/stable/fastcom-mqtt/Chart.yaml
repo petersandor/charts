@@ -34,4 +34,4 @@ sources:
   - https://github.com/simonjenny/fastcom-mqtt
   - https://hub.docker.com/r/simonjenny/fastcom-mqtt
 type: application
-version: 7.1.5
+version: 7.1.6

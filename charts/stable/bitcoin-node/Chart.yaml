@@ -34,4 +34,4 @@ sources:
   - https://github.com/kylemanna/docker-bitcoind
   - https://hub.docker.com/r/kylemanna/bitcoind
 type: application
-version: 7.1.6
+version: 7.1.7

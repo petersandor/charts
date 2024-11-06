@@ -40,4 +40,4 @@ sources:
   - https://github.com/nocodb/nocodb
   - https://hub.docker.com/r/nocodb/nocodb
 type: application
-version: 15.6.4
+version: 15.6.5

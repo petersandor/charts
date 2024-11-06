@@ -34,4 +34,4 @@ sources:
   - https://ghcr.io/atuinsh/atuin
   - https://github.com/atuinsh/atuin
 type: application
-version: 5.2.5
+version: 5.2.6

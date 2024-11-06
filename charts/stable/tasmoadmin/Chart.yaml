@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/tasmoadmin/tasmoadmin
   - https://github.com/TasmoAdmin/TasmoAdmin
 type: application
-version: 10.1.7
+version: 10.1.8

@@ -34,4 +34,4 @@ sources:
   - https://github.com/RedisJSON/RedisJSON
   - https://hub.docker.com/r/redislabs/rejson
 type: application
-version: 7.1.7
+version: 7.1.8

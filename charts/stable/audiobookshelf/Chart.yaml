@@ -33,4 +33,4 @@ sources:
   - https://github.com/advplyr/audiobookshelf
   - https://hub.docker.com/r/advplyr/audiobookshelf
 type: application
-version: 11.3.9
+version: 11.3.10

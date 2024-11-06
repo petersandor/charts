@@ -35,4 +35,4 @@ sources:
   - https://github.com/nimarion/promcord
   - https://hub.docker.com/r/biospheere/promcord
 type: application
-version: 13.1.5
+version: 13.1.6

@@ -34,4 +34,4 @@ sources:
   - https://ghcr.io/netbootxyz/netbootxyz
   - https://github.com/netbootxyz/netboot.xyz
 type: application
-version: 6.1.6
+version: 6.1.7

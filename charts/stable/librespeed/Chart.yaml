@@ -34,4 +34,4 @@ sources:
   - https://ghcr.io/linuxserver/librespeed
   - https://github.com/librespeed/speedtest
 type: application
-version: 15.2.2
+version: 15.2.3

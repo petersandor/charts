@@ -33,4 +33,4 @@ sources:
   - https://ghcr.io/kiranshila/doplarr
   - https://github.com/kiranshila/Doplarr
 type: application
-version: 11.1.5
+version: 11.1.6

@@ -34,4 +34,4 @@ sources:
   - https://ghcr.io/tautulli/tautulli
   - https://github.com/Tautulli/Tautulli
 type: application
-version: 20.1.9
+version: 20.1.10

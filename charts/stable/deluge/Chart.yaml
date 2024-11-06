@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/linuxserver/deluge
   - https://github.com/deluge-torrent/deluge
 type: application
-version: 20.1.5
+version: 20.1.6

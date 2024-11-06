@@ -36,4 +36,4 @@ sources:
   - https://ghcr.io/sct/overseerr
   - https://github.com/sct/overseerr
 type: application
-version: 15.1.5
+version: 15.1.6

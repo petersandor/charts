@@ -36,4 +36,4 @@ sources:
   - https://github.com/tiredofit/docker-backuppc
   - https://hub.docker.com/r/tiredofit/backuppc
 type: application
-version: 8.1.5
+version: 8.1.6

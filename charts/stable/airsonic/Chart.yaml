@@ -35,4 +35,4 @@ sources:
   - https://github.com/k8s-at-home/charts/tree/master/charts/airsonic
   - https://github.com/linuxserver/docker-airsonic
 type: application
-version: 15.1.5
+version: 15.1.6

@@ -36,4 +36,4 @@ sources:
   - https://ghcr.io/zadam/trilium
   - https://github.com/zadam/trilium
 type: application
-version: 14.1.5
+version: 14.1.6

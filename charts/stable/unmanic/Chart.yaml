@@ -33,4 +33,4 @@ sources:
   - https://github.com/Unmanic/unmanic
   - https://hub.docker.com/r/josh5/unmanic
 type: application
-version: 12.1.5
+version: 12.1.6

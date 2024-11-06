@@ -39,4 +39,4 @@ sources:
   - https://github.com/RblSb/SyncTube
   - https://hub.docker.com/r/littlestache/synctube
 type: application
-version: 9.1.5
+version: 9.1.6

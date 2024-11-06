@@ -33,4 +33,4 @@ sources:
   - https://github.com/souramoo/commentoplusplus
   - https://hub.docker.com/r/caroga/commentoplusplus
 type: application
-version: 13.1.5
+version: 13.1.6

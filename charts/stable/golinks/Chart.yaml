@@ -38,4 +38,4 @@ sources:
   - https://github.com/nicholaswilde/docker-golinks
   - https://github.com/prologic/golinks
 type: application
-version: 13.1.5
+version: 13.1.6

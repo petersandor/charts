@@ -35,4 +35,4 @@ sources:
   - https://github.com/jacobalberty/unifi-docker
   - https://unifi-network.ui.com
 type: application
-version: 22.3.6
+version: 22.3.7

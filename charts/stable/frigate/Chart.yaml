@@ -36,4 +36,4 @@ sources:
   - https://ghcr.io/blakeblackshear/frigate
   - https://github.com/blakeblackshear/frigate
 type: application
-version: 16.2.3
+version: 16.2.4

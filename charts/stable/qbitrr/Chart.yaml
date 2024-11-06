@@ -35,4 +35,4 @@ sources:
   - https://github.com/Feramance/Qbitrr
   - https://hub.docker.com/r/feramance/qbitrr
 type: application
-version: 6.2.11
+version: 6.2.12

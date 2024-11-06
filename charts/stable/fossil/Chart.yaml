@@ -34,4 +34,4 @@ sources:
   - https://fossil-scm.org/
   - https://ghcr.io/nicholaswilde/fossil
 type: application
-version: 13.1.5
+version: 13.1.6

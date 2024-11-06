@@ -34,4 +34,4 @@ sources:
   - https://ghcr.io/anotherstranger/borg-server
   - https://github.com/AnotherStranger/docker-borg-backup
 type: application
-version: 6.3.6
+version: 6.3.7

@@ -35,4 +35,4 @@ sources:
   - https://hub.docker.com/r/jlesage/jdownloader-2
   - https://jdownloader.org/
 type: application
-version: 18.3.3
+version: 18.3.4

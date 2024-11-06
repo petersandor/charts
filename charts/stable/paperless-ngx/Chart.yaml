@@ -44,4 +44,4 @@ sources:
   - https://github.com/paperless-ngx/paperless-ngx
   - https://paperless-ngx.readthedocs.io/en/latest/
 type: application
-version: 9.5.9
+version: 9.5.10

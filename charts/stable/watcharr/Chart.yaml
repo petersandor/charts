@@ -34,4 +34,4 @@ sources:
   - https://ghcr.io/sbondco/watcharr
   - https://github.com/sbondCo/Watcharr
 type: application
-version: 6.3.6
+version: 6.3.7

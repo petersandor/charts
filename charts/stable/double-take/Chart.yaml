@@ -34,4 +34,4 @@ sources:
   - https://github.com/jakowenko/double-take
   - https://hub.docker.com/r/skrashevich/double-take
 type: application
-version: 12.1.6
+version: 12.1.7

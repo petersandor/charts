@@ -44,4 +44,4 @@ sources:
   - https://ghcr.io/linuxserver/clarkson
   - https://github.com/linuxserver/Clarkson
 type: application
-version: 14.3.6
+version: 14.3.7

@@ -33,4 +33,4 @@ sources:
   - https://ghcr.io/fluidd-core/fluidd
   - https://github.com/fluidd-core/fluidd
 type: application
-version: 11.1.10
+version: 11.1.11

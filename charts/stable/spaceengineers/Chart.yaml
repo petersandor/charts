@@ -34,4 +34,4 @@ sources:
   - https://github.com/Devidian/docker-spaceengineers
   - https://hub.docker.com/r/devidian/spaceengineers
 type: application
-version: 8.1.6
+version: 8.1.7

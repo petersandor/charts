@@ -33,4 +33,4 @@ sources:
   - https://ghcr.io/gethomepage/homepage
   - https://github.com/benphelps/homepage
 type: application
-version: 9.2.10
+version: 9.2.11

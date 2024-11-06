@@ -38,4 +38,4 @@ sources:
   - https://github.com/linuxserver/docker-photoshow
   - https://github.com/thibaud-rohmer/PhotoShow
 type: application
-version: 12.1.5
+version: 12.1.6

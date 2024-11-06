@@ -42,4 +42,4 @@ sources:
   - https://github.com/mongo-express/mongo-express
   - https://hub.docker.com/_/mongo-express
 type: application
-version: 8.2.4
+version: 8.2.5

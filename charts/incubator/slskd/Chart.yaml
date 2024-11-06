@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/slskd/slskd
   - https://github.com/ansible-slskd/slskd
 type: application
-version: 2.1.9
+version: 2.1.10

@@ -35,4 +35,4 @@ sources:
   - https://github.com/rshipp/webNUT
   - https://hub.docker.com/r/edgd1er/webnut
 type: application
-version: 10.1.6
+version: 10.1.7

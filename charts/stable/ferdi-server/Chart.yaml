@@ -33,4 +33,4 @@ sources:
   - https://github.com/getferdi/server
   - https://hub.docker.com/r/getferdi/ferdi-server
 type: application
-version: 13.1.5
+version: 13.1.6

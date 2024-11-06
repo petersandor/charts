@@ -34,4 +34,4 @@ sources:
   - https://ghcr.io/linuxserver/pyload
   - https://github.com/pyload/pyload
 type: application
-version: 15.1.5
+version: 15.1.6

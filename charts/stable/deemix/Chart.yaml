@@ -35,4 +35,4 @@ sources:
   - https://git.freezerapp.xyz/RemixDev/deemix-py
   - https://gitlab.com/Bockiii/deemix-docker.git
 type: application
-version: 12.1.5
+version: 12.1.6

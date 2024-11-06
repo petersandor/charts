@@ -35,4 +35,4 @@ sources:
   - https://github.com/jens-maus/RaspberryMatic
   - https://github.com/jens-maus/RaspberryMatic/pkgs/container/raspberrymatic
 type: application
-version: 7.1.8
+version: 7.1.9

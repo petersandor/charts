@@ -42,4 +42,4 @@ sources:
   - https://github.com/ghostfolio/ghostfolio
   - https://hub.docker.com/r/ghostfolio/ghostfolio
 type: application
-version: 6.15.11
+version: 6.15.12

@@ -33,4 +33,4 @@ sources:
   - https://github.com/airsonic/airsonic-advanced
   - https://hub.docker.com/r/airsonicadvanced/airsonic-advanced
 type: application
-version: 15.1.5
+version: 15.1.6

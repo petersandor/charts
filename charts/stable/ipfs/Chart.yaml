@@ -34,4 +34,4 @@ sources:
   - https://github.com/ipfs/kubo
   - https://hub.docker.com/r/ipfs/kubo
 type: application
-version: 12.2.6
+version: 12.2.7

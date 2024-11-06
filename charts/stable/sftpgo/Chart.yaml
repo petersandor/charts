@@ -34,4 +34,4 @@ sources:
   - https://ghcr.io/drakkan/sftpgo
   - https://github.com/drakkan/sftpgo
 type: application
-version: 8.1.7
+version: 8.1.8

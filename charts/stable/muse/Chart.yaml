@@ -35,4 +35,4 @@ sources:
   - https://github.com/codetheweb/muse
   - https://hub.docker.com/r/codetheweb/muse
 type: application
-version: 7.2.5
+version: 7.2.6

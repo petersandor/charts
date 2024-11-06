@@ -36,4 +36,4 @@ sources:
   - https://github.com/JVT038/MetaTube
   - https://hub.docker.com/r/jvt038/metatube
 type: application
-version: 7.1.8
+version: 7.1.9

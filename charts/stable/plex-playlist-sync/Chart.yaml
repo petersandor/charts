@@ -39,4 +39,4 @@ sources:
   - https://github.com/rnagabhyrava/plex-playlist-sync
   - https://hub.docker.com/r/rnagabhyrava/plexplaylistsync
 type: application
-version: 5.1.5
+version: 5.1.6

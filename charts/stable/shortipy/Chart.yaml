@@ -35,4 +35,4 @@ sources:
   - https://github.com/maschhoff/shortipy
   - https://hub.docker.com/r/knex666/shortipy
 type: application
-version: 7.1.5
+version: 7.1.6

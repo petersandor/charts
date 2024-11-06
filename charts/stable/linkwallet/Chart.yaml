@@ -33,4 +33,4 @@ sources:
   - https://github.com/tardisx/linkwallet
   - https://hub.docker.com/r/tardisx/linkwallet
 type: application
-version: 7.1.5
+version: 7.1.6

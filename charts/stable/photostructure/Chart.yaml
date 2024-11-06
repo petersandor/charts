@@ -36,4 +36,4 @@ sources:
   - https://github.com/photostructure/photostructure-for-servers
   - https://hub.docker.com/r/photostructure/server
 type: application
-version: 9.1.5
+version: 9.1.6

@@ -34,4 +34,4 @@ sources:
   - https://github.com/Netflix/lemur
   - https://hub.docker.com/r/halianelf/lemur
 type: application
-version: 7.1.5
+version: 7.1.6

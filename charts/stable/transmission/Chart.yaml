@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/onedr0p/transmission
   - https://github.com/transmission/transmission
 type: application
-version: 22.1.5
+version: 22.1.6

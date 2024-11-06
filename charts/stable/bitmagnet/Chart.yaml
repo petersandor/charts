@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/bitmagnet-io/bitmagnet
   - https://github.com/bitmagnet-io/bitmagnet
 type: application
-version: 3.2.7
+version: 3.2.8
