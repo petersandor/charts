@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.1
+  max_scale_version: 24.04.2.3
   min_scale_version: 24.04.0
   truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
@@ -34,4 +34,4 @@ sources:
   - https://github.com/jakowenko/double-take
   - https://hub.docker.com/r/skrashevich/double-take
 type: application
-version: 12.1.6
+version: 12.1.7

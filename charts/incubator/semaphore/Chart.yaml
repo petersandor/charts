@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.1
+  max_scale_version: 24.04.2.3
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: 'true'
   truecharts.org/category: productivity
@@ -35,4 +35,4 @@ sources:
   - https://github.com/ansible-semaphore/semaphore
   - https://hub.docker.com/r/semaphoreui/semaphore
 type: application
-version: 3.3.3
+version: 3.3.4

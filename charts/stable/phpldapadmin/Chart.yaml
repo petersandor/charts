@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.1
+  max_scale_version: 24.04.2.3
   min_scale_version: 24.04.0
   truecharts.org/category: management
   truecharts.org/max_helm_version: '3.15'
@@ -35,4 +35,4 @@ sources:
   - https://gitlab.v2.rancher.geohub.space/g3s/i3s/i3s-helm-catalog
   - https://hub.docker.com/r/osixia/phpldapadmin
 type: application
-version: 15.1.5
+version: 15.1.6
