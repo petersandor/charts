@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.4
+  max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
   truecharts.org/category: Network-DNS
   truecharts.org/max_helm_version: '3.15'
@@ -34,4 +34,4 @@ sources:
   - https://github.com/kutzilla/docker-hetzner-ddns
   - https://hub.docker.com/r/kutzilla/hetzner-ddns
 type: application
-version: 7.1.7
+version: 7.1.8
