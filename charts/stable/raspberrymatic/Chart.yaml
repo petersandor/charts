@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.3
+  max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: 'false'
   truecharts.org/category: iot
@@ -35,4 +35,4 @@ sources:
   - https://github.com/jens-maus/RaspberryMatic
   - https://github.com/jens-maus/RaspberryMatic/pkgs/container/raspberrymatic
 type: application
-version: 7.1.12
+version: 7.1.13
