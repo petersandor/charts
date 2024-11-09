@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.4
+  max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
   truecharts.org/category: network
   truecharts.org/max_helm_version: '3.15'
@@ -34,4 +34,4 @@ sources:
   - https://github.com/tailscale/tailscale/blob/main/docs/k8s/run.sh
   - https://hub.docker.com/r/tailscale/tailscale
 type: application
-version: 10.3.6
+version: 10.3.7
