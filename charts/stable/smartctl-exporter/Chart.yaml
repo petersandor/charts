@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.3
+  max_scale_version: 24.04.2.4
   min_scale_version: 24.04.0
   truecharts.org/category: metrics
   truecharts.org/max_helm_version: '3.15'
@@ -35,4 +35,4 @@ sources:
   - https://github.com/prometheus-community/smartctl_exporter
   - https://hub.docker.com/r/prometheuscommunity/smartctl-exporter
 type: application
-version: 4.1.7
+version: 4.1.8

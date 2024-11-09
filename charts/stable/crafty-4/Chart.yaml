@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.3
+  max_scale_version: 24.04.2.4
   min_scale_version: 24.04.0
   truecharts.org/category: GameServers
   truecharts.org/max_helm_version: '3.15'
@@ -35,4 +35,4 @@ sources:
   - https://craftycontrol.com/
   - https://gitlab.com/crafty-controller/crafty-4
 type: application
-version: 9.1.11
+version: 9.1.12

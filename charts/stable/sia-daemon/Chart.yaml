@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.3
+  max_scale_version: 24.04.2.4
   min_scale_version: 24.04.0
   truecharts.org/category: Cloud
   truecharts.org/max_helm_version: '3.15'
@@ -36,4 +36,4 @@ sources:
   - https://github.com/SiaFoundation/siad/pkgs/container/siad
   - https://github.com/siafoundation/siad
 type: application
-version: 7.1.7
+version: 7.1.8
