@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.3
+  max_scale_version: 24.04.2.4
   min_scale_version: 24.04.0
   truecharts.org/category: home-automation
   truecharts.org/max_helm_version: '3.15'
@@ -36,4 +36,4 @@ sources:
   - https://github.com/home-assistant/home-assistant
   - https://hub.docker.com/r/homeassistant/home-assistant
 type: application
-version: 26.4.10
+version: 26.4.11

@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.3
+  max_scale_version: 24.04.2.4
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: 'true'
   truecharts.org/category: database
@@ -35,4 +35,4 @@ sources:
   - https://github.com/VictoriaMetrics/VictoriaMetrics/tree/master
   - https://hub.docker.com/r/victoriametrics/victoria-metrics
 type: application
-version: 2.2.5
+version: 2.2.6

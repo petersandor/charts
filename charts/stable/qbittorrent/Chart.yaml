@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.3
+  max_scale_version: 24.04.2.4
   min_scale_version: 24.04.0
   truecharts.org/category: media
   truecharts.org/SCALE-support: 'true'
@@ -35,4 +35,4 @@ sources:
   - https://github.com/qbittorrent/qBittorrent
   - https://hub.docker.com/r/mjmeli/qbittorrent-port-forward-gluetun-server
 type: application
-version: 21.1.12
+version: 21.1.13

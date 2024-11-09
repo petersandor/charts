@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.3
+  max_scale_version: 24.04.2.4
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: 'true'
   truecharts.org/category: design
@@ -36,4 +36,4 @@ sources:
   - https://hub.docker.com/r/wisemapping/wisemapping
   - https://www.wisemapping.com/
 type: application
-version: 2.1.6
+version: 2.1.7

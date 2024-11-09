@@ -35,4 +35,4 @@ sources:
   - https://github.com/miniflux/v2
   - https://hub.docker.com/r/miniflux/miniflux
 type: application
-version: 16.1.9
+version: 16.1.11
