@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/linuxserver/quassel-core
   pullPolicy: IfNotPresent
-  tag: 0.14.0@sha256:27d4d7ad029617d258097d1d120157bf03b7f385478385ac48afed24e0e8770a
+  tag: 0.14.0@sha256:5d366854b8668bc2df0cade91f67450610eabb2f1a42813c59809b05a0d25a2b
 service:
   main:
     ports:
