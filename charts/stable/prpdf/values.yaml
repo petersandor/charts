@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: knex666/prpdf
-  tag: latest@sha256:2cf1a4edfe3a5445c889e1ae7bc8f14cd1127e653e7f19a86f86bfa9ab8be1c4
+  tag: latest@sha256:aa195e83c9ccd84f4ba9b9da4136438f8d7c56560b67d1d992bf1d6db99acd0a
 persistence:
   config:
     enabled: true
