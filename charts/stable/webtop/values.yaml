@@ -20,7 +20,7 @@ alpineKDEImage:
   pullPolicy: Always
 ubuntuKDEImage:
   repository: lscr.io/linuxserver/webtop
-  tag: ubuntu-kde@sha256:565b31652f12db5d423615e7545e8c83e1b0eb3fd7eafd44dd5dcbf7464e520f
+  tag: ubuntu-kde@sha256:2783da8f821afdd6add45349714bc51b31b7f424b8bd8afba6cba16772c5a825
   pullPolicy: Always
 fedoraKDEImage:
   repository: lscr.io/linuxserver/webtop
