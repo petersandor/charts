@@ -36,4 +36,4 @@ sources:
   - https://github.com/ArchiveBox/ArchiveBox
   - https://hub.docker.com/r/archivebox/archivebox
 type: application
-version: 4.1.8
+version: 4.1.9
