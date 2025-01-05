@@ -1,7 +1,7 @@
 image:
   repository: anirdev/slink
   pullPolicy: IfNotPresent
-  tag: v1.4.0@sha256:0f078cf4ecb8f896ae28375ff6caa8b3a1e19b9c28f851bb2869a735d2cd3319
+  tag: v1.4.5@sha256:91c285ed675de7a540897558968c9b69dabd98838cae5bb34d2bb01c54b1d0eb
 securityContext:
   container:
     readOnlyRootFilesystem: false
