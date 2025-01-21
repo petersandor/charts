@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: ich777/vintagestory
-  tag: latest@sha256:f835841670c1aad29f32d215ed0ffabd9df9f06976a639809273a3f0faa34254
+  tag: latest@sha256:0da66a809d9ebaf9aecf8cb365de45bb36196419aedfa0f95c2d7237a5c48f5e
 persistence:
   serverfiles:
     enabled: true
