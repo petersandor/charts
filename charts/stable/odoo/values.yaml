@@ -1,7 +1,7 @@
 image:
   repository: docker.io/odoo
   pullPolicy: IfNotPresent
-  tag: 17.0@sha256:66bd85dc3bf086a85595091b501432ab5c36a960c60f40827a88cd4ce527fce7
+  tag: 17.0@sha256:fcb49fcfc8eec09a0a985b881d34d9b7b189a9ddbfbff2bf3567711489cbfc3e
 securityContext:
   container:
     readOnlyRootFilesystem: false
