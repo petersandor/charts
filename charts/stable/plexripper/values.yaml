@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: plexripper/plexripper
-  tag: v0.21.0@sha256:770f10242bccff90c3d18b7ca3f0e37f02dfccf8f3bd61e3d87c278b40e8f668
+  tag: 0.29.1@sha256:6ce194070a3bb5aa931d9a859842bddcef4669fe331bfdbc140b39c10034e0df
 service:
   main:
     ports:
