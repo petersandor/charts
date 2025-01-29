@@ -5,7 +5,7 @@ image:
 
 sidecarImage:
   repository: quay.io/kiwigrid/k8s-sidecar
-  tag: 1.27.6@sha256:db85bd5532530d288736b35e63baceacbf570bf863d85a0404b33c1e1631f63b
+  tag: 1.29.1@sha256:42002d66ddb3ba46db5ae44b8511cfe07f292eab038e2dad68d9c23de972a29f
 
 securityContext:
   container:
