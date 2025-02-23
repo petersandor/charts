@@ -21,7 +21,7 @@ edgeImage:
 remminaImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/remmina
-  tag: 2.8.12@sha256:9a60e2a280fb98fe1091ca6982b7d5780e1029a3a4cc754d20620eb3cbcb0515
+  tag: 2.9.0@sha256:0a28fe715bc2b470865eab27beb796725aaa22b0bb203abb8980c9b97aa80fb0
 torImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/tor-browser
