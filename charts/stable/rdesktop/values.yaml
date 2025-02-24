@@ -24,7 +24,7 @@ ubuntuKDEImage:
   pullPolicy: Always
 fedoraKDEImage:
   repository: lscr.io/linuxserver/rdesktop
-  tag: fedora-kde@sha256:0ffa71a063387962c8daa8f70ca4d009985e5c41ea95f53f7a94fbc496484311
+  tag: fedora-kde@sha256:fb3a038d45edb4c826249145a995625e69c39efd284ba5ed388db3ec1dffce2f
   pullPolicy: Always
 archKDEImage:
   repository: lscr.io/linuxserver/rdesktop
@@ -56,7 +56,7 @@ ubuntuI3Image:
   pullPolicy: Always
 fedoraI3Image:
   repository: lscr.io/linuxserver/rdesktop
-  tag: fedora-i3@sha256:07ec8d6c770b01e968a2231271d3a7c8c72cf00958df980bd8fbf61934e1e7fb
+  tag: fedora-i3@sha256:e909b12849e45c5a7e43acb9bb0534329cdbd53b894eb40db9f1221baee2ecc0
   pullPolicy: Always
 archI3Image:
   repository: lscr.io/linuxserver/rdesktop
