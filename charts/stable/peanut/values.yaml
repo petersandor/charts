@@ -1,6 +1,6 @@
 image:
   repository: brandawg93/peanut
-  tag: 2.6.1@sha256:044a11611b526f210306fc821b98975f050a1e35929fd4a9c8cce41bb736919b
+  tag: 5.5.0@sha256:ed37068062345007f17e7994062da09738fbde1fe3f20ab9a781b93100401d19
   pullPolicy: IfNotPresent
 securityContext:
   container:
