@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/linuxserver/bookstack
   pullPolicy: IfNotPresent
-  tag: 24.10.20241009@sha256:d3a8ee014e31e490ab8888e4c5248b320e4bc49cdbd36cb766a88715705e634a
+  tag: 25.02.20250226@sha256:aa5aabd00f347c6042143944e559e93a0ea20b344fb3c0d4a78c7ebabac41e93
 securityContext:
   container:
     readOnlyRootFilesystem: false
