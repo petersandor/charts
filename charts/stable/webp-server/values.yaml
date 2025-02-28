@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: webpsh/webps
-  tag: latest@sha256:0e7d50575d1a894fcef72c44a7b13ba553a5160fbb2bf23dbb22abbf1ada4a1e
+  tag: latest@sha256:697c612effd57e43f30a3f7ea66843dfdac687c6a507240e27864bab449e5888
 persistence:
   storagecache:
     enabled: true
