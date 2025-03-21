@@ -1,6 +1,6 @@
 image:
   repository: ghcr.io/lloesche/valheim-server
-  tag: latest@sha256:a56a982c593e863d8845ccd3ff9f3918ea23d89377576f5efe8b0447946eff87
+  tag: latest@sha256:9267437089ef4a32e840a81ff0ffc232d1a24c6a10f171c0e0c6b73cf852fa72
   pullPolicy: IfNotPresent
 service:
   main:
