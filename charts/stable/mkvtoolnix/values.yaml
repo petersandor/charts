@@ -1,6 +1,6 @@
 image:
   repository: jlesage/mkvtoolnix
-  tag: v24.12.2@sha256:016c38abe22b99440522f21f52ec0773d8bab51b68baec446d48f3af07d0ef2b
+  tag: v25.03.1@sha256:053302f52d04f45c4ceaa091b5f9fabb74dd1541abd7f393688ac16594ab49f0
   pullPolicy: IfNotPresent
 service:
   main:
