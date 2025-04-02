@@ -1,6 +1,6 @@
 image:
   repository: bitnami/prometheus
-  tag: 2.55.1@sha256:6361d1ca169571a9ad92d60c7a86d624e2478c5dd616752c9872ee319bd75892
+  tag: 2.55.1@sha256:be01bd930ec1ed35c4a267c186e86314d6d5dc4b8b57ac4012f0776378fb17df
 thanosImage:
   repository: quay.io/thanos/thanos
   tag: v0.37.2@sha256:4ec6df40fdb921de162677b321057caa8fb8324c65f4cfae9568ed55c4469e2c
