@@ -33,7 +33,7 @@ vivaldiImage:
 vlcImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/vlc
-  tag: 2.9.0@sha256:402affce87b105aef08f816da5fcb9c73858001b21fcbf04c82835ea4dea74a8
+  tag: 3.0.2@sha256:5f969f9b6172a84f985e86cc10126da7fc4bdc64335338737c651b1163db94ca
 xfceImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/xfce
