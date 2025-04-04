@@ -13,7 +13,7 @@ chromeImage:
 chromiumImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/chromium
-  tag: 2.9.0@sha256:ddf5e45420ee38f5e5be7931d48abd003a2eb96a343a62923ed7abd8107ff2d8
+  tag: 3.0.2@sha256:64f95537bc1fbe69af5b6f31d92114827a1b8c4c77ed6e326a1d49f3e5412037
 edgeImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/microsoft-edge
