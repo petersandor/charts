@@ -29,7 +29,7 @@ torImage:
 vivaldiImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/vivaldi
-  tag: 2.9.0@sha256:9be91b147fa940a73001308eb4ae668edc7e3d0363ced513ab55041b3244276a
+  tag: 3.0.2@sha256:d6f22e112fe961eee46446a4cb7fb2453965d8b3d19ad7929207c00881b2c9c6
 vlcImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/vlc
