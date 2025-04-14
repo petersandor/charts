@@ -1,7 +1,7 @@
 image:
   repository: tagspaces/tagspaces-lite-web
   pullPolicy: IfNotPresent
-  tag: 5.5.2@sha256:0b1bf452ca77bda01c3e44f426e95111b1703d7beaff8d6bbecf470dc2aad374
+  tag: 6.4.5@sha256:836413d5ea9d711e55009b54dd6fe59d98bf81b119e8f7d7685e32c80eae5abf
 securityContext:
   container:
     readOnlyRootFilesystem: false
