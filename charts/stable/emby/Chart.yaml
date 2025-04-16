@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/geek-cookbook/emby
   - https://github.com/linuxserver/docker-emby.git
 type: application
-version: 20.1.9
+version: 20.1.10
