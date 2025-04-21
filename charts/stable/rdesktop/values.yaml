@@ -1,10 +1,10 @@
 image:
   pullPolicy: IfNotPresent
   repository: lscr.io/linuxserver/rdesktop
-  tag: latest@sha256:771c5fd651d8e41d9e45af9badbb5930ae3c2e20e55cf8014040657b46d80ca5
+  tag: latest@sha256:ea7834db18c19a26fb16e0620cc7c3683a88722563962288ee3dd037783d7632
 ubuntuXFCEImage:
   repository: lscr.io/linuxserver/rdesktop
-  tag: ubuntu-xfce@sha256:07fcf09216622e0bf42e6968c05bed64695f48c7dcb10304cdf4e32e935ca3e5
+  tag: ubuntu-xfce@sha256:8c649cb1f4d94607788fc37a47b5017b10da894e360d4d11a5367ee0f7c2873e
   pullPolicy: Always
 fedoraXFCEImage:
   repository: lscr.io/linuxserver/rdesktop
@@ -24,7 +24,7 @@ ubuntuKDEImage:
   pullPolicy: Always
 fedoraKDEImage:
   repository: lscr.io/linuxserver/rdesktop
-  tag: fedora-kde@sha256:069614b00d2394a82afb4fcfa4a835b839504d0a0cf1e1859452afbd4eb57363
+  tag: fedora-kde@sha256:efeefcef165fb7d4d263859ca4d1120ce6ce14d04325163daf3ff28a203add5c
   pullPolicy: Always
 archKDEImage:
   repository: lscr.io/linuxserver/rdesktop
@@ -40,7 +40,7 @@ ubuntuMATEImage:
   pullPolicy: Always
 fedoraMATEImage:
   repository: lscr.io/linuxserver/rdesktop
-  tag: fedora-mate@sha256:3391a250cd72013b51090c7ab0e10ec995fa75eae376caa0f4e51819e6d40c1c
+  tag: fedora-mate@sha256:5737899016fb25b3f603e3c3b41fc8518d2a620315ddba707305267c1a3a5b8d
   pullPolicy: Always
 archMATEImage:
   repository: lscr.io/linuxserver/rdesktop
@@ -56,7 +56,7 @@ ubuntuI3Image:
   pullPolicy: Always
 fedoraI3Image:
   repository: lscr.io/linuxserver/rdesktop
-  tag: fedora-i3@sha256:b11194137bfd177f02fe6b2943cd7e1b11633abe42b91224825bab8bfa8336bd
+  tag: fedora-i3@sha256:aba7293ae6950ea00bf0896f555ab1cdd9de3491ddbe3bf42fb027ea5e388cbf
   pullPolicy: Always
 archI3Image:
   repository: lscr.io/linuxserver/rdesktop
@@ -84,7 +84,7 @@ alpineICEWMImage:
   pullPolicy: Always
 ubuntuICEWMImage:
   repository: lscr.io/linuxserver/rdesktop
-  tag: ubuntu-icewm@sha256:bfd0983ed344d86c12c0b3792d15e5400869aa430d230020caa43d5078f91c27
+  tag: ubuntu-icewm@sha256:8529504bbaa47d220c03f9e473fe8ea0da91ac44288687dc83876c45bc6e4a4a
   pullPolicy: Always
 fedoraICEWMImage:
   repository: lscr.io/linuxserver/rdesktop
